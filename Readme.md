@@ -10,7 +10,7 @@ The topics that we will be reviewing are:
 
 # Preamble
 
-Joan Harn plans to open a bookstore on the upper west side of Chicago. For the last three months she has been buying books in bulk and storing them.  Her plan is to stock her selves with these books when she finally opens her bookstore later this month.
+Joan Harn plans to open a bookstore on the upper west side of Chicago. For the last three months she has been buying books in bulk and storing them.  Her plan is to stock her shelves with these books when she finally opens her bookstore later this month.
 
 One of her friends recently suggested that she take orders for books via phone and email until she closes on her lease.  Joan decided this would be great because then when she opened her store she would have some presence.
 
