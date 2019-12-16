@@ -8,6 +8,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/CSVFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/model/Book.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/fileprocessor/FileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
