@@ -8,6 +8,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/BookStoreApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/application/BookStoreApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileExtensionNotRecognizedException.java">
           <value>
             <set />
@@ -19,6 +34,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileProcessorFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/factory/FileProcessorFactory.java">
           <value>
             <set />
           </value>
@@ -68,6 +88,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/application/BookStoreAppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/factory/FileProcessorFactoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/impl/CSVFileProcessorTest.java">
           <value>
             <set />
@@ -83,6 +113,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/impl/factory/FileProcessorFactoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/csvFileTestStub.csv">
           <value>
             <set />
@@ -94,6 +129,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/txtFileTestStub.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>

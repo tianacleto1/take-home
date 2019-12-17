@@ -1,5 +1,7 @@
-package tiagoanacleto.bookstore.fileprocessor;
+package tiagoanacleto.bookstore.fileprocessor.factory;
 
+import tiagoanacleto.bookstore.fileprocessor.FileProcessor;
+import tiagoanacleto.bookstore.fileprocessor.exception.FileExtensionNotRecognizedException;
 import tiagoanacleto.bookstore.fileprocessor.impl.CSVFileProcessor;
 import tiagoanacleto.bookstore.fileprocessor.impl.JsonFileProcessor;
 import tiagoanacleto.bookstore.fileprocessor.impl.TXTTabSeparatedFileProcessor;
@@ -14,10 +16,10 @@ public class FileProcessorFactory {
 
     private FileProcessorFactory() {}
 
-    public static FileProcessor getFileProcessorImpl(String path) {
-        String fileExtension = Optional.ofNullable(path)
+    public static FileProcessor getFileProcessor(String fileExt) {
+        String fileExtension = Optional.ofNullable(fileExt)
                                         .filter(f -> f.contains("."))
-                                        .map(f -> f.substring(path.lastIndexOf('.') + 1))
+                                        .map(f -> f.substring(fileExt.lastIndexOf('.') + 1))
                                         .orElse("")
                                         .toLowerCase();
 
