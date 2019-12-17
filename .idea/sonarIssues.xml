@@ -8,12 +8,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileExtensionNotRecognizedException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileProcessor.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/FileProcessorFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/CSVFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/JsonFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/TXTFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/TXTTabSeparatedFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/TXTTabSeparatorFileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/bookstore/fileprocessor/impl/TxtFileProcessor.java">
           <value>
             <set />
           </value>
@@ -24,6 +59,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tiagoanacleto/fileprocessor/FileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/testStub.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/impl/CSVFileProcessorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/impl/JsonFileProcessorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/tiagoanacleto/bookstore/fileprocessor/impl/TXTTabSeparetedFileProcessorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/csvFileTestStub.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/jsonFileTestStub.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/txtFileTestStub.txt">
           <value>
             <set />
           </value>

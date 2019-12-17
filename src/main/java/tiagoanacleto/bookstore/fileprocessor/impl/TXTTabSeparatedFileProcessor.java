@@ -13,12 +13,12 @@ import java.util.stream.Stream;
 
 /**
  * This class implements the FileProcessor interface
- * with csv file type processing behavior
+ * with txt file type processing behavior
  */
 @Log4j
-public class CSVFileProcessor implements FileProcessor {
+public class TXTTabSeparatedFileProcessor implements FileProcessor {
 
-    private static final String SPECIAL_CHARS = ",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)";
+    private static final String SPECIAL_CHARS = "\t";
 
     @Override
     public Map<Long, Book> processFile(String path) {
@@ -55,3 +55,4 @@ public class CSVFileProcessor implements FileProcessor {
         return book;
     }
 }
+

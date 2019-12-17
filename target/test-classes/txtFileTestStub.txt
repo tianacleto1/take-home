@@ -1,0 +1,2 @@
+Title	Description	ISBN	Author	Genre	Pages	Age Range	Price	Qty.
+The Dutch House	At the end of the Second World War, Cyril Conroy combines luck and a single canny investment to begin an enormous real estate empire, propelling his family from poverty to enormous wealth. His first order of business is to buy the Dutch House, a lavish estate in the suburbs outside of Philadelphia. Meant as a surprise for his wife, the house sets in motion the undoing of everyone he loves.	9780062963673	Ann Patchett	Coming-Of-Age Fiction	352	15-35	$27.99	20
