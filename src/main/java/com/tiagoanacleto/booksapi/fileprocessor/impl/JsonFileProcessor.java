@@ -52,7 +52,7 @@ public class JsonFileProcessor implements FileProcessor {
         book.setPages(String.valueOf((Long) json.get("Pages")));
         book.setAgeRange((String) json.get("Age Range"));
         book.setPrice((String) json.get("Price"));
-        book.setQty((Long) json.get("Qty."));
+        book.setQty((Integer) json.get("Qty."));
 
         return book;
     };

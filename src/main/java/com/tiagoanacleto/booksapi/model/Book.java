@@ -23,7 +23,7 @@ public class Book {
     private String pages;
     private String ageRange;
     private String price;
-    private Long qty;
+    private int qty;
 
     @Override
     public String toString() {

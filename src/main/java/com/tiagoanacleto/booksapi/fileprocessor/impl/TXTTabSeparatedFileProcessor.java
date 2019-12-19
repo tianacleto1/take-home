@@ -50,7 +50,7 @@ public class TXTTabSeparatedFileProcessor implements FileProcessor {
         book.setPages(str[5]);
         book.setAgeRange(str[6]);
         book.setPrice(str[7]);
-        book.setQty(Long.valueOf(str[8].trim()));
+        book.setQty(Integer.parseInt(str[8].trim()));
 
         return book;
     }

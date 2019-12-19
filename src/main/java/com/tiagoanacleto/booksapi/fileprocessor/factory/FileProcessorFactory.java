@@ -31,7 +31,7 @@ public class FileProcessorFactory {
             case "json":
                 return new JsonFileProcessor();
             default:
-                throw new FileExtensionNotRecognizedException("File Extension empty or not recognised!");
+                throw new FileExtensionNotRecognizedException();
         }
     }
 }
