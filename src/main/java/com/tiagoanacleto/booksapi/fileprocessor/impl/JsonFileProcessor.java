@@ -24,11 +24,11 @@ import java.util.stream.Collectors;
 public class JsonFileProcessor implements FileProcessor {
 
     @Override
-    public Map<Long, Book> processFile(String path) {
+    public Map<Long, Book> processFile(String filename) {
         JSONParser jsonParser = new JSONParser();
         Map<Long, Book> books = new HashMap<>();
 
-        try (Reader fileReader = new FileReader(path)) {
+        try (Reader fileReader = new FileReader(filename)) {
             JSONArray lines = (JSONArray) jsonParser.parse(fileReader);
 
             books = (Map<Long, Book>) lines.stream()

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,13 +17,13 @@ public class FileService {
     @Autowired
     private BookService bookService;
 
-    public void processAndSaveFiles(MultipartFile[] files) {
+    public void processAndSaveFiles(MultipartFile[] files) throws IOException {
         Map<Long, Book> bookMap = new HashMap<>();
 
         for (MultipartFile filePath : files) {
-            if (!filePath.isEmpty()) {
-                FileProcessor fileProcessor = FileProcessorFactory.getFileProcessor(filePath.getName());
-                Map<Long, Book> lines = fileProcessor.processFile(filePath.getName());
+            if (!filePath.getName().isEmpty()) {
+                FileProcessor fileProcessor = FileProcessorFactory.getFileProcessor(filePath.getOriginalFilename());
+                Map<Long, Book> lines = fileProcessor.processFile(filePath.getResource().getFile().getPath());
 
                 lines.values()
                         .forEach(b -> {

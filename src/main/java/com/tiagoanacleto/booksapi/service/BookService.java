@@ -1,6 +1,7 @@
 package com.tiagoanacleto.booksapi.service;
 
 import com.tiagoanacleto.booksapi.model.Book;
+import com.tiagoanacleto.booksapi.model.BookSearchFilter;
 import com.tiagoanacleto.booksapi.repository.BookRepository;
 import com.tiagoanacleto.booksapi.service.exception.BookNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,20 @@ public class BookService {
      * @return List<Book>
      */
     public List<Book> getBooks() {
-        return bookRepository.findAll()
-                             .stream()
-                             .sorted(Comparator.comparing(Book::getGenre)
-                             .thenComparing(Book::getAuthor))
-                             .collect(Collectors.toList());
+        return sortBooks(bookRepository.findAll());
+    }
+
+    public List<Book> getBooksByGenreOrAuthorOrTitle(BookSearchFilter searchFilter) {
+        return sortBooks(bookRepository.getAllOrByGenreOrAuthorOrTitle(searchFilter.getTitle(),
+                                                             searchFilter.getAuthor(),
+                                                             searchFilter.getGenre()));
+    }
+
+    private List<Book> sortBooks(List<Book> books) {
+        return books.stream()
+                    .sorted(Comparator.comparing(Book::getGenre)
+                    .thenComparing(Book::getAuthor))
+                    .collect(Collectors.toList());
     }
 
     public Book updateBookQty(long isbn, int bookQty) {

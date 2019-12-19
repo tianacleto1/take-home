@@ -1,6 +1,7 @@
 package com.tiagoanacleto.booksapi.resource;
 
 import com.tiagoanacleto.booksapi.model.Book;
+import com.tiagoanacleto.booksapi.model.BookSearchFilter;
 import com.tiagoanacleto.booksapi.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +19,11 @@ public class BookResource {
     @GetMapping
     public List<Book> getAllBooks() {
         return bookService.getBooks();
+    }
+
+    @GetMapping("/search")
+    public List<Book> searchBooks(BookSearchFilter bookSearchFilter) {
+        return bookService.getBooksByGenreOrAuthorOrTitle(bookSearchFilter);
     }
 
     @PatchMapping("/{isbn}")

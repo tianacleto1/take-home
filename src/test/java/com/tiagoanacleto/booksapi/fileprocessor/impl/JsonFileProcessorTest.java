@@ -8,6 +8,8 @@ import org.junit.Test;
 import java.io.File;
 import java.util.Map;
 
+import static org.junit.Assert.assertEquals;
+
 public class JsonFileProcessorTest {
 
     private static final String FILE_PATH = "src/test/resources/jsonFileTestStub.json";
@@ -22,8 +24,8 @@ public class JsonFileProcessorTest {
 
     @Test
     public void whenFileIsReaded_ThenItShouldReturnBooksMapTest() {
-        Map<Long, Book> bookMock = jsonFileProcessor.processFile(file.getAbsolutePath());
+        Map<Long, Book> bookMock = jsonFileProcessor.processFile(file.getName());
 
-        Assert.assertEquals("C Programming Language", bookMock.get(131103628L).getTitle());
+        assertEquals("C Programming Language", bookMock.get(131103628L).getTitle());
     }
 }
