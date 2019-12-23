@@ -1,0 +1,6 @@
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/fileprocessor/impl/CSVFileProcessor.kt
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/fileprocessor/FileProcessor.kt
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/fileprocessor/factory/FileProcessorFactory.kt
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/fileprocessor/factory/TXTTabSeparatorFileProcessor.kt
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/fileprocessor/factory/JsonFileProcessor.kt
+/Users/tiagosilva/Documents/repositories/BoschChallengCommandline/src/main/kotlin/bookstore/model/Book.kt
